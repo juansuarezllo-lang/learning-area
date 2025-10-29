@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>My test page</title>
-  </head>
-  <body>
-    <p>This is my page</p>
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de registro</title>
+        <meta name="description"content="registro para un curso de programación">
+    </head>
+    <body>
+        <div>
+    <h1> SOÑADORES DIGITALES</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVtEqhWG7U67-PoV1mEYAx4eHEh3G8qV6Utg&s" alt="Imagen para el curso">
+    <p>Aprende a programar desde cero y transforma tus ideas en realidad. En este curso dominarás los fundamentos de la programación, desde variables y estructuras de control hasta programación orientada a objetos y manejo de datos. Desarrollarás proyectos prácticos que te prepararán para crear tus propias aplicaciones y dar el primer paso hacia una carrera en tecnología.</p>
+    <a href="#Modalidades">Ver modalidad</a><br>
+    <a href="#Contacto">contacto</a><br>
+    <a href="#Inscripción">Ir al formulario de inscripción</a>
+</div>
+
+<div>
+<h2>Temas que se abordaran</h2>
+<ul>
+    <li>Introducción a la programación y configuración del entorno</li>
+    <li>Variables y tipos de datos</li>
+    <li>Variables y tipos de datos</li>
+    <li>Estructuras de control: condicionales (if/else/switch)</li>
+    <li>Bucles y ciclos</li>
+    <li>Funciones y métodos</li>
+    <li>Arrays y listas</li>
+    <li>Programación orientada a objetos: clases y objetos</li>
+    <li>Herencia y polimorfismo</li>
+</ul>
+</div>
+<div>
+    <ul>
+    <h2>Lenguajes que se abordaran</h2>
+    <li>Python</li>
+    <li>JavaScript</li>
+    <li>Java</li>
+    <li>C++</li>
+    <li>PHP</li>
+    <li>Ruby</li>
+    <li>Go</li>
+    </ul>
+</div>
+
+<div>
+<h2>Objetivos del estudiante</h2>
+<ol>
+    <li>Desarrollar pensamiento lógico y capacidad de resolución de problemas mediante código</li>
+    <li>Crear aplicaciones funcionales de forma independiente aplicando buenas prácticas de programación</li>
+    <li>Dominar los fundamentos necesarios para especializarse en cualquier área del desarrollo de software</li>
+</ol>
+</div>
+
+<div>
+    <h2 id="Modalidades">Modalidades</h2> 
+    <h3>Presencial</h3>
+    <p>Experimenta el aprendizaje cara a cara en nuestras instalaciones equipadas con tecnología de última generación. Disfruta de networking directo con compañeros, resolución inmediata de dudas y un ambiente enfocado 100% en tu formación. Perfecto para quienes prefieren la interacción directa y el compromiso de un espacio físico de estudio.</p>
+    <h3>Virtual</h3>
+    <p>Aprende desde la comodidad de tu hogar con clases en vivo y acceso a material grabado. Tendrás flexibilidad de horarios, interacción directa con el instructor a través de plataformas digitales y acceso 24/7 a recursos y ejercicios prácticos. Ideal para quienes buscan comodidad sin sacrificar calidad educativa.</p>
+</div>
+
+<div>
+ <h2 id="Inscripción">Formulario de inscripción</h2>
+<form>
+        <form action="juan.suarezllo@cun.edu.co">
+            <input name="nombre" placeholder="Escriba su nombre" required></input><br>
+             <input name="Correo" placeholder="Ingrese su correo" required></input><br>
+              <input type="number" placeholder="Numero de telefono" required></input><br>
+              <h3>¿Que modalidad?</h3>
+              <input id="Virtual" type="radio" name="modalidad" value="Virtual">
+      <label for="Virtual">Virtual</label><br>
+       <input id="Presencial" type="radio" name="modalidad" value="Presencial">
+      <label for="Presencial">Presencial</label><br><br>
+              <button type="submit">Enviar</button>
+            </form>
+    
+</div>
+
+
+<div>
+    <h2 id="Contacto">¡Ponte en contacto con nosotros!</h2>
+    <form>
+        <form action="juan.suarezllo@cun.edu.co">
+            <input name="nombre" placeholder="Escriba su nombre" required></input><br>
+             <input name="Correo" placeholder="Ingrese su correo" required></input><br>
+              <input type="text" placeholder="Añadir comentario"><br>
+              <button type="submit">Enviar</button>
+            </form>
+    
+</div>
+    </body>
 </html>
